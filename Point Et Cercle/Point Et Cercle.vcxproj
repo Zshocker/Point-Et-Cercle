@@ -142,11 +142,13 @@
     <ClInclude Include="Cercle.h" />
     <ClInclude Include="GC.h" />
     <ClInclude Include="Point.h" />
+    <ClInclude Include="Shape.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Cercle.cpp" />
     <ClCompile Include="GC.cpp" />
     <ClCompile Include="Point.cpp" />
+    <ClCompile Include="Shape.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -1,8 +1,9 @@
 #pragma once
 #include"Point.h"
 #include"GC.h"
+#include"Shape.h"
 namespace Geo {
-	class Cercle
+	class Cercle :public Shape
 	{
 		Point* Center;
 		GC* cmp;
